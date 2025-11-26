@@ -8,3 +8,5 @@ class Message(models.Model):
 
     def __str__(self):
         return f"Message from {self.user.username} on {self.date}"
+
+        
