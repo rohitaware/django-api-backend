@@ -24,7 +24,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://django-api-frontend.onrender.com"
+    "https://django-api-frontend-react.onrender.com",
 ]
 
 STORAGES = {
