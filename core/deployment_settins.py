@@ -24,7 +24,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://django-api-frontend-react.onrender.com",
+        "https://django-api-frontend-react.onrender.com",  # Allow requests from the deployed frontend application(s).
+        # NOTE: On Render (and other hosts), set the frontend origin (e.g. 'https://django-api-frontend-react.onrender.com')
+        # Keep localhost allowed for testing/dev when necessary
+        "http://localhost:5173",
 ]
 
 STORAGES = {
