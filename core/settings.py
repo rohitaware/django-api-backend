@@ -142,7 +142,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS Settings - to allow frontend to connect
 # Update with your frontend's actual URL
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://django-api-frontend-react.onrender.com",
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
